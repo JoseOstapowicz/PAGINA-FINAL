@@ -21,8 +21,9 @@ body {
   
 }
 
+
 .texto-principal h1 {
-    width: 200%;
+    width: 100%;
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 4.5rem;
     color: rgba(255, 255, 255, 0.973);
@@ -206,3 +207,30 @@ h1 {
   text-align: left;
 }
 
+
+@media screen and (max-width: 800px){
+  .container2 {
+    width: 50%;
+  }
+  
+}
+
+@media screen and (max-width: 500px){
+  .texto-principal h1 {
+    font-size: 3.5rem;
+  }
+  img {
+    width: 80%;
+    
+    }
+}
+
+@media screen and (max-width: 400px){
+  .texto-principal h1 {
+    font-size: 2.5rem;
+  }
+  img {
+    width: 60%;
+    
+    }
+}
