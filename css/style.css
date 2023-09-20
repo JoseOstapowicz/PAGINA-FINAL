@@ -24,7 +24,7 @@ body {
 
 .texto-principal h1 {
     width: 100%;
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Courgette', cursive;
     font-size: 4.5rem;
     color: rgba(255, 255, 255, 0.973);
     text-shadow: 5px 5px 5px rgba(255, 0, 0, 0.541);
@@ -179,16 +179,6 @@ h1 {
     text-shadow: 5px 5px 5px rgba(4, 0, 255, 0.527);
   }
   
-
-.rombo {
-  width: 100%;
-  height: 100%;
-  animation: diamante 4s linear infinite;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation-play-state: paused;
-}
 
 .rombo:hover {
   animation-play-state: running;

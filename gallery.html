@@ -4,22 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
   <title>FINAL</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
 </head>
-
-
 
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid" style="background-color: rgba(222, 184, 135, 0.274)">
-        <a class="navbar-brand" href="index.html  "><img src="img/logo2.png" alt="logo3" style="width: 50px"></a>
+
+      <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(222, 184, 135, 0.274)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo2.png" alt="logo3" style="width: 50px">
+        </a>
+      
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,155 +43,40 @@
         </div>
       </div>
     </nav>
+    
+    <!-- Título de la pagina de productos-->
+        <h2>NUESTRAS MEJORES MARCAS</h2>
 
-    <div class="container">
-
-      <div class="texto">
-        <h2>CONOZCA NUESTRAS MEJORES CERVEZAS</h2>
-      </div><br><br>
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-          </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/IPA.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h4>IPA</h4>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/SCOTTISH.jpg"width="500" height="740" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h4>SCOTTISH</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/RED.jpg"width="500" height="740" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h4>IRISH RED</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/NEGRA.webp"width="500" height="740" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h4>NEGRA</h4>
-             </div>
-          </div>
-         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div><br>
-
-      <div class="informacion-container">
-        <p>
-          Cervezas Lager<br>
-          Las Lager son las cervezas más populares en Europa occidental;<br>
-          normalmente son cervezas claras, para servirse frías con una alta drinkability.<br>
-          Dentro de las Lager podemos encontrar tres subtipos principales:<br>
-          la Pilsen, la Lager especial y la Lager extra.<br>
-        </p>
+    <!--Icono de carrito de compra-->
+      <div class="container-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 
+          1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 
+          .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+        </svg>
       </div>
-
-        <div class="informacion-container">
-          <p>
-          Cervezas Lager Pilsen<br>
-          Son las cervezas más populares en España. Tiene una graduación<br>
-          de alcohol media-baja, rondando el 4%. Son cervezas rubias elaboradas<br>
-          con maltas claras como la Malta Pilsner o la Premium Pilsner. <br>
-          Tienen un ligero aroma a lúpulo con notas suaves y frescas, siendo las Lagers más ligeras.<br>
-        
-        <div class="informacion-container">
-        <p>
-          Lager Especial<br>
-          Las especial son también cervezas rubias, doradas como las pilsen <br>
-          pero con reflejos más ámbar. Tienen aromas malteados, ligeramente <br>
-          tostados con notas a lúpulo. Son cervezas muy cremosas.<br>
-
-        <div class="informacion-container">
-         <p>
-          Lager extra<br>
-          Son las Lager con la graduación de alcohol más alta (entre 6 y 7%).<br>
-          Tienen un color cobrizo, proveniente de la malta tostada. <br>
-          Su aroma es más intenso, con un cuerpo y espuma bastante fuertes.<br>
-
-        <div class="informacion-container">
-         <p>
-          Cervezas Ales<br>
-          Antes de las Lagers, fueron durante siglos el tipo de cerveza más popular. <br>
-          Suelen tener una graduación más alta y sabores más intensos. Para su elaboración <br>
-          se usan principalmente levaduras tipo Saccharomyces cerevisiae como la Safale US-05<br>
-          y la Safale S-04, fermentando rápidamente a temperaturas entre 15 y 25º.<br>
-
-        <div class="informacion-container">
-        <p>
-         Pale Ale<br>
-        Las cervezas Pale Ale son uno de los tipos de cerveza más de moda actualmente. <br>
-        Son las cervezas Ale más pálidas (de ahí su nombre). No obstante, son cervezas <br>
-        muy lupuladas y de intenso sabor (algunas pueden llegar a ser bastante amargas). <br>
-        Dentro de las Pale Ale, se encuentran también las conocidas IPA (India Pale Ale).<br>
-
-        <div class="informacion-container">
-        <p>
-        Cervezas negras<br>
-        En las denominadas cervezas negras podemos encontramos dos subtipos principales:<br>
-
-        Cervezas Stout: Cervezas muy oscuras hechas con malta tostada.<br>
-
-        Cervezas Porter: Una variedad aun más fuerte. Suelen ser muy cremosas y pueden tener matices a chocolate o café.<br>
-
-        <div class="informacion-container">
-        <p>
-        Ales belgas<br>
-        Son las cervezas originarias de Bélgica. Las dos más conocidas son la Ales belgas <br>
-        trapenses y las Saison belgas.<br>
-
-        <div class="informacion-container">
-        <p>
-        Trapenses: <br>
-        Cerveza originariamente producida en los monasterios trapenses de Bélgica. <br>
-        Son cervezas Ale de carácter fuerte con una segunda fermentación en botella. <br>
-        Son cervezas afrutadas, con colores que oscilan entre el bronce y el marrón oscuro. <br>
-        La graduación de este tipo de cerveza es bastante alta (entre 6 y 8º).<br>
-
-        <div class="informacion-container">
-        <p>
-        Saison belgas: <br>
-        La comúnmente conocida como la cerveza del verano. De sabor fresco y afrutado.<br>
-
-        <div class="informacion-container">
-        <p>
-        Ale Alemanas<br>
-        Perdieron bastante popularidad al aparecer las Lager. No obstante, siguen quedando <br>
-        algunos tipos con bastantes adeptos. Una de las más conocidas es la Kölsh, <br>
-        un tipo de cerveza Ale de color pálido con la particularidad de madurar en frío.<br> 
-        Cervezas suaves y afrutadas con una graduación alcohólica de 6º.<br>
-
-      <div class="informacion-container">
-      <p>
-      Abadia<br>
-      Una cerveza de color bronceado con una espuma ligeramente tostada y con mucha persistencia. <br>
-      Un aroma afrutado con notas a caramelo. Este tipo suele tener una graduación alrededor de los <br>
-      6º y en boca se presenta muy sabrosa y seca.<br>
-
-      </div>
-
-
-    </div>
   </header>
+
+    <!--Listado de productos-->
+  <div class="container-items">
+    <div class="item">
+      <figure>
+        <img src="img/JAGUAR/2.jpg" alt="jaguar">
+      </figure>
+
+      <div class="info-product">
+        <h2>Zapatillas Jaguar</h2>
+        <div class="price">$25000</div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
 
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
